@@ -99,3 +99,105 @@ A random variable is a placeholder for the possible values of some process. Nota
 We might have the random variable X, which is a holder for the possible values of the amount of time someone spends on our site. Or the random variable Y, which is a holder fot the possible values of whether or not an individual purchases a product.
 
 X is 'a holder' of the values that could possibly occur for the amount of time spent on our website. Any number from 0 to infinity. 
+
+### Capital vs. Lower Case Letters
+
+Random variables are represented by capital letters. Once we observe an outcome of these random variables, we notate it as a lower case of the same letter.
+
+Example 1
+The amount of time someone spends on our iste is a random variable (we are not sure what the outocme for any particular visitor),and we notate this with X. Then when the first person visits the website, if they spend 5 minutes, we have now observed this outcome of our random variable. We would notate any outcome as a lowercase letter with a subscript associated with the order that we observed the outcome(e.g. x1 for the first observation).
+
+If 5 inidividuals visit our website, the first spends 10 minutes, the second spends 20 minutes, the third spends 45 minutes, the fourth 12 minutes and the fifth 8 minutes, we can notate this problem the following way:
+
+X is the amount of time an individual spends on the website.
+
+x1 = 10, x2 = 20, x3 = 45, x4 = 12, x5 = 8.
+
+The capital X is associated with this idea of a random variable, while the observations of the random variable take on lowercase x values.
+
+Example 2
+We could ask: What is the probability someone spends more than 20 minutes on our website?
+
+In notation, we could write:
+
+P(X > 20)?
+
+Here P stands for probability, while the parentheses encompass the statement for which we would like to find the probability. Since X represents the amount of time spent on the website this notation represents the probability the amount of time on the website is greater than 20.
+
+We could find this in the above example by noticing that only one of the 5 observations exceeds 20. So, we would say there is a 1 (the 45 minutes) in 5 or 20% chance that an inidividual spends more than 20 minutes on our website (based on this dataset).
+
+Example 3
+If we asked: What is the probability of an inidividual spending 20 or more minutes on our website? We could notate this as:
+
+P(X >= 20)?
+
+We could then find this by noticing there are two out of the five individuals that spend 20 or more minutes on the website. So this probabiliyt is 2 out of 5 or 40%.
+
+### A better way?
+Notation for calculating the Mean
+The mean is calculated as the sum of all our values divided by the number of values in our dataset. In our current notation, adding all the values together can be tedious for large datasets. To add 3 values of a random variable we would use:
+
+x1 + x2 + x3
+
+To add 6 values, we would use the followng notation:
+
+x1 + x2 + x3 + x4 + x5 + x6
+
+To extend this to add 100, 1000 or a million values would be ridiculous.
+
+## Summation
+
+### Aggregations
+An aggregation is a way to turn multiple numbers into fewer numbers (commonly one number, e.g. like mean, median or mode).
+Summation is a common aggregation. The notation used to sum our values is the greek symbol called sigma ∑.
+
+Example 1
+Imagine we are looking at the amount of time inidividuals spend on our website. We collect data from nine individuals:
+
+x1 = 10, x2 = 20, x3 = 45, x4 = 12, x5 = 8, x6 = 12, x7 = 3, x8 = 68, x9 = 5
+
+if we want to sum the first three values together in our previous notation, we write:
+
+x1 + x2 + x3
+
+In our new notation, we can write:
+
+  3
+ ∑xi
+ i=1
+
+Our notation starts at the first observation (i = 1) and ends at 3 (the number at the top of our summation).
+
+  3
+ ∑xi  =  x1 + x2 + x3  =  10 + 20 + 45  =  75
+ i=1
+
+Example 2
+To sum the last three values together:
+
+x7 + x8 + x9
+
+In our new notation, we can write:
+
+  9
+ ∑xi
+ i=7
+
+ Out notation starts at the seventh observation (i=7) and ends at 9 (the number at the top of our summation).
+
+ ### Other aggregations
+ The ∑ sign is used for aggregating using summation, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. We might need to aggregate in alternative ways. If we wanted to multiply all of our values together we woul use a product sign Π, capital greek letter pi. The way we aggregate continuous values i with something know as integration (a common technique in calculus), which uses the following symbol ∫ which is just a long s.
+
+ ### Notation for the Mean
+
+ x̄ (x-bar) is the notation we use to represent the mean of a dataset. A general formula for the mean using notation uses n as the total number of values in our dataset. Therefore the mean notation is as follows:
+
+ 1   n
+ -  ∑xi  The sum of all the values/number of values
+ n  i=1
+
+x-bar can also be y-bar or z-bar and any letter can be used as an index, not just i e.g.
+
+1   n
+-  ∑yj
+n  j=1
