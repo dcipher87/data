@@ -76,4 +76,4 @@ There is no mode because all observations occur the same number of times.
 ### Many Modes
 If 2 (or more) values share the maximum frequency, then there is more than 1 mode. If we have the dataset:
 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9
-There are 2 modes 3 and 6, because these values share the maximum frequency at 3 times each while all other values appear once.  
+There are 2 modes 3 and 6, because these values share the maximum frequency at 3 times each while all other values appear once.
