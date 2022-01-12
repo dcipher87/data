@@ -1,0 +1,79 @@
+I. Data and its importance
+
+# Data is defined as distinct pieces of information and it can come in many forms. From numbers in a spreadsheet, to text, video and databases, to images and audio recordings. Data is used to understand and improve nearly every facet of our lives.
+
+# Data Types
+
+Data can fall into two main types (for purposes of this course):
+- Quantitative: data that takes on numeric values that allow us to perform mathematical operations (like the number of dogs)
+- Categorical: data that is used to label a group or set of items (like dog breeds - danes, collies, poodles etc.)
+
+## Categorical Ordinal vs Categorical Nominal
+We can divide catergorical data further into two types: Ordinal and Nominal:
+
+- Categorical Ordinal data take on a ranked ordering (like ranked interaction on a scale from 'Very Poor' to 'Very Good' with dogs.)
+- Categorical Nominal data do ot have an order or ranking (like the breeds of dogs.)
+
+## Continuous vs Discrete (Quantitative Data)
+We can think of quantitative data as being either continuous or descrete:
+
+- Continuous data can be split into smaller and smaller units, and still smaller units exist. An example of this is the age of the dog. We can measure the units of age in years, months, days, hours, seconds but there are still smaller units that could be associated with the age. (can take on decimal values e.g. time, distance)
+- Discret data only takes on countable values. The number of dogs we interact with is an example of a  discrete data type. (mostly only whole numbers)
+
+II. Introduction to Summary Statistics
+
+Statistics can be used to describe quantitative data. It involves how data is collected and how data can be used to answer questions.
+
+# Analysing Quantitative Data
+
+Four aspects for quantitative data
+There are four main aspects to analysing quantiative data:
+1. Measures of Center
+2. Measures of Spread
+3. The Shape of the Data
+4. Outliers
+
+# Analysing Categorical Data
+
+Analysing categorical data has fewer parts to consider. Catergorical data is analysed usually by looking at the counts or proprtion of individuals that fall into each group. For example, if we werer looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed.
+
+# Measures of Center
+
+There are three measures of center:
+1. Mean
+2. Median
+3. Mode
+
+## The Mean
+
+The mean is oftern called the average or the expected value in mathematics. We calculate the mean by adding all of our values together and dividing by the number of values in our dataset. 
+(e.g. test results: 68, 74, 91. Mean = (68 + 74 + 91) / 3)
+
+## The Median
+
+The median splits our data so that 50% of our values are lower and 50% are higher. The median is calculated based on whether the number of observation is odd or even.
+
+### Median for Odd Values
+If we have an odd number of observations, the median is simple the number in the direct middle (when the observations are ordered, e.g. smallest to largest). If we have 7 observations the median is the 4th value, if 9 oservations the median will be the 5th value.
+
+### Median for Even Values
+If we have an even number of observations, the median is the average (mean) of the two values in the middle of the dataset. If we have 8 observations, we average the 4th and 5th values together when our values are ordered (e.g. smallest to largest).
+
+In order to compute the median, we MUST sort our values first.
+
+Whether we use the mean or median to describe a dataset is largely dependent on the shape of our dataset and if there are any outliers.
+
+
+## The Mode
+
+The mode is the most frequently observed value in our dataset. There might be multiple modes for a particular dataset or no mode at all.
+
+### No Mode
+If all observations in our dataset are observed with the same frequency, there is no mode. If we have the dataset:
+1, 1, 2, 2, 3, 3, 4, 4
+There is no mode because all observations occur the same number of times.
+
+### Many Modes
+If 2 (or more) values share the maximum frequency, then there is more than 1 mode. If we have the dataset:
+1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9
+There are 2 modes 3 and 6, because these values share the maximum frequency at 3 times each while all other values appear once.  
