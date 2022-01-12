@@ -66,7 +66,7 @@ Whether we use the mean or median to describe a dataset is largely dependent on 
 
 ## The Mode
 
-The mode is the most frequently observed value in our dataset. There might be multiple modes for a particular dataset or no mode at all.
+The mode is the most frequently observed value in our dataset (the most common value). There might be multiple modes for a particular dataset or no mode at all.
 
 ### No Mode
 If all observations in our dataset are observed with the same frequency, there is no mode. If we have the dataset:
@@ -77,3 +77,25 @@ There is no mode because all observations occur the same number of times.
 If 2 (or more) values share the maximum frequency, then there is more than 1 mode. If we have the dataset:
 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9
 There are 2 modes 3 and 6, because these values share the maximum frequency at 3 times each while all other values appear once.
+
+# Notation
+
+Notation is a common language used to communicate mathematical ideas. It is the universal language used by academics and industry professionals to covery mathematical ideas. 
+
+Plus(+), minus(-), multiply(*), division(/) and equals(=) all have mathematical symbols we're familiar with. Each symbol replaces an idea of how numbers interact with each other. Notation has the following properties:
+
+1. Knowing how to read and write notation is like learning a new language. A language that is used to covery ideas associated with mathematics.
+
+2. Notation allows you to read documentation, and implement an idea to your own problem.
+
+3. Notation makes ideas that are hard to say in words easier to convey, usually mathematics related ideas.
+
+Before collecting data, we usually start with a question, or multiple questions, that we would like to answer. The purpose of data is to help us in answering these questions.
+
+## Random Variables
+
+A random variable is a placeholder for the possible values of some process. Notation is useful in that it helps us take complex ideas and simplify them (often to a single letter or symbol). We see random variables represented by capital letters (X, Y, Z are common ways to represent a random variable).
+
+We might have the random variable X, which is a holder for the possible values of the amount of time someone spends on our site. Or the random variable Y, which is a holder fot the possible values of whether or not an individual purchases a product.
+
+X is 'a holder' of the values that could possibly occur for the amount of time spent on our website. Any number from 0 to infinity. 
