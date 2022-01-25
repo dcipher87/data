@@ -1,0 +1,12 @@
+# Why Spreadsheets
+
+Spreadsheets started off as a manual way of tracking things like sales and keeping running totals of columns and performing maths on these column.
+
+Spreadsheets are easy to obtain and use, they are quick at loading, modifying and visualising data. They do have limitations such as issues when there are a lot of users, very large datasets as well as variance in sheet sizes and amounts when porting to different programs.
+
+## Navigation
+
+Spreadsheet columns use letters as their labels, A - Z, continuing on by adding an initial letter to again run through the alphabe (so AA - AZ, then BA - BZ).
+Rows are numbered numerically. Each cell is addressed based on its column and row, so the cell in Column D and row 6 is D6.
+
+When working with multiple sheets, the tab name also becomes part of the cell name, if addressed from a different sheet.

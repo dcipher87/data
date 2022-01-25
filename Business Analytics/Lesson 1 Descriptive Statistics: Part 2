@@ -1,0 +1,316 @@
+# Measures of Spread
+
+Measures of spread are also used to analyse quantitative data(variables). Measures of spread are used to provide us with an idea of how spread-out our data are from one another.
+
+This lesson deals with:
+1. Evaluating measures of spread:
+	* Range
+	* Interquartile Range (IQR)
+	* Standard Deviation
+	* Variance
+2. Analyse outliers
+3. Evaluate descriptive and inferential statistics.	
+
+## Histograms
+
+Histograms are useful for understanding the different aspects of data and they are a common visual used for quantitative data. Histograms will be used to provide clarity on the four aspects regarding quantitative variables:
+	* center
+	* spread
+	* shape
+	* outliers
+
+### How are Histograms constructed
+First the data is binned. Each bin represents a range of values in a dataset. The number of values that fall in the range of each bin determines the height of each histogram bar. Changing the bins can result in slightly different visuals, there is no right or wrong way to choosing bins. 	
+
+### Weekdays vs. Weekends
+
+			Weekdays							Weekends
+|								|
+|			#					|				#
+|			#					|				#	#
+|			#	#				|			#	#	#
+|		#	#	#	#			|			#	#	#	#
+|	#	#	#	#	#			|		#	#	#	#	#
+|	#	#	#	#	#			|	#	#	#	#	#	#	#
+|_________________________		|_______________________________	
+	10		13		16				6			13			18
+
+The 2 histograms below illustrate the number of dogs seen on weekdays vs. weekends. The measures of center for both histograms (mean, median, mode) are basically the same and centered abot the highest bin for both histograms, 13.
+
+Visually, the difference between the histograms is the range of spread of dogs seen during each period. The most common ways to measure the spread of data are discussed below.
+
+## Five Number Summary
+
+The five-number summary consists of 5 values:
+1. Minimum: The smallest value in the dataset
+2. Q1: The value such that 25% of the data fall below
+3. Q2: The value such that 50% of the data fall below, also the median
+4. Q3: The value such that 75% of the data fall below
+5. Maximum: The largest value in the dataset
+The 5 number summary gives us values for calculating the range and interquartile range.
+
+To calculate the 5 number summary, the values in our dataset need to be ordered (e.g. smallest to largest)
+
+5, 8, 3, 2, 1, 3, 10  must be ordered to  1, 2, 3, 3, 5, 8, 10
+
+The first and last values of the ordered dataset will be the minimum and maximum values respectively, i.e. 1 and 10 in this example.
+
+Q2 (Median) is the value that splits the dataset in half (3 in this example)
+
+Q1 and Q3 values can be thought of as the medians of the (sub)datasets on either side of Q2.
+		Q1 							 Q3
+
+ [1] ,  [2] ,   3  ,  [3],    5  ,   [8],    [10]
+ Min 			   Median(Q2) 				 Max
+
+ Note, Q2 is included in either of the (sub)datasets used to calcluate Q1 and Q3.
+
+ Five number summary example: 5, 8, 3, 2, 1, 3, 10, 105
+
+ Order dataset: 1, 2, 3, 3, 5, 8, 10, 105
+ Min:	1 
+ Q1:	2.5 	(Median 2 and 3)
+ Q2:	4 		(Median 3 and 5)
+ Q3:	9		(Median 8 and 10)
+ Max: 	105
+
+ ### Range
+ The range is calculate as the difference between the maximum and the minimum values. (104)
+
+ ### IQR
+ The interquartile range is calculated as the difference between Q3 and Q1. (6.5)
+
+ ## What if We Only Want One Number?
+
+ The histograms used to record the number of dogs seen on weekdays and weekends can be used to mark the values of the 5 number summary and create a box plot.
+
+ Box plots are useful for quickly comparing the spread of two datasets across some key metrics, like quartiles, maximum and minimum.
+
+ ### Weekdays vs. Weekends
+
+			Weekdays							Weekends
+|								|
+|	|	 |	|#	|	 |			|	|	 |		|#		|	 |
+|	|	 |	|#	|	 |			|	|	 |		|#	#	|	 |
+|	|	 |	|#	|#	 |			|	|	 |	#	|#	#	| 	 |
+|	|	#|	|#	|#	#|			|	|	 |	#	|#	#	|#	 |
+|	|#	#|	|#	|#	#|			|	|	#|	#	|#	#	|#	 |
+|	|#	#|	|#	|#	#|			|	|#	#|	#	|#	#	|#	#|
+|_________________________		|_______________________________	
+	10		13		16				6			13			18
+	Min  Q1 Q2	Q3	Max 			Min   Q1	Q2	  Q3	Max
+
+	|----|||| ||||----|				|-----||||||| ||||||-----|
+
+### How to create a box plot
+1. The beginning of the line to the left of the box and the end of the line to the right of the box represents the minimum and maximum values in a dataset.
+2. The visual distance between these marking is an indication of the range of the values.
+3. The box itself represents the IQR. The box begins at the Q1 value, and ends at the Q3 value, and Q2 or the median is represented by a line within the box.
+
+From the histogram and the box plots, we can see that the number of dogs seen on weekends varies much more than on weekdays.
+
+Instead of depending on a visual of the 5 number summary to compare data, we can use a single value to compare the distribution spreads - the standard deviation.
+
+# Standard Deviation and Variance
+
+The standard deviation is one of the most common measures of describing the spread of data. It is definedd as the average distance of each observation from the mean.
+
+## Calculating the Standard Deviation
+Dataset: 10, 14, 10, 6
+					    
+1. Calculate the mean. 
+ 4
+(∑xi)/n = 40/4 = 10
+ i=1
+
+2. Calculate the distance of each observation from the mean and square the value.
+      _
+(xi - x) = 
+10 - 10 = 0
+14 - 10 = 16
+10 - 10 = 0
+6 - 10 = 16
+
+3. Calculate the variance, the avergae squared difference of each observation from the mean.
+
+1  n 	  _
+-  ∑(xi - x) =
+n i=1
+
+(0 + 16 + 0 + 16)/4 = 8
+
+4. Calculate the standard deviation, the square root of the variance.
+
+√8 = 2.83
+
+2.83 is on average how far each point in our dataset is from the mean.
+
+## Why the Standard Deviation
+
+The standard deviation is a common metric used to compare the spread of two(or more) datasets. The benefits of using a single metric instead of the 5 number summary are:
+- it simplifies the amount of information needed to give a measure of spread
+- it is useful for inferential statistics
+
+## Important Final Points
+
+1. The variance is used to compare the spread of two different groups. A set of data with higher variance is more spread out than a dataset with lower variance. Note, outliers can increase the variance when most of the data is actually closer together.
+2. When comparing the spread between two datasets, the units of each must be the same (e.g. dollars to dollars, or euros to euros).
+3. When data is related to money or the economy, higher variance (or standard deviation) is associated with higher risk.
+4. The standard deviation is used more often in practice than the variance because it shares the units of the original dataset, variance uses dataset squared.
+
+# Recap
+
+## Variable Types
+
+Data can identified as either categorical(labels) or quantitative(can be used mathematically). Quantitative variables can be either continuous (can be split into smaller units, e.g. time(hrs, minutes, seconds, etc)) or discrete (can not be split into smaller units e.g. number of dogs seen.). Categorical variables can be identified as either ordinal (can be ordered/ranked e.g. good, average, bad) or nominal (e.g. breed of dog).
+
+## Categorical Variables
+
+When analysing categorical variables, we commonly look a the count or percent of a group that falls into each level of category. For example, if we have two levels of dog category: "lab" and "not lab", we might say 32% of the dogs were lab (percent) or 32 out of 100 dogs we saw were labs(count).
+
+The 4 aspects associated with describing quantitative variable sare not used to describe catergorical variables.
+
+## Quantitative Variables
+
+There are four main aspects used to describe quantitative variables:
+1. Measuers of Center
+2. Measures of Spread
+3. Shapre of the Distribution
+4. Outliers
+
+Calculable measures of center include:
+1. Means (average)
+2. Medians (data point that splits dataset in 2)
+3. Modes (most common, frequent dataset value)
+
+Calculable measures of spread include:
+1. Range (Max - Min)
+2. Interquartile Range (Q3 - Q1)
+3. Standard Deviation (average difference of dataset from the mean)
+4. Variance (squared standard deviation)
+
+## Standard Deviation vs. Variance
+
+The standard deviation is the square root of the variance. In practice the standard deviation is usually used rather than the variance. This is because the standard deviation shares the same units with the original data, while the variance has squared units.
+
+# Shape
+
+From a histogram (most popular visual for quantitativ data) we can quickly identify the shape of our data, which inluence all of the measures we learned in the previous concepts. The distribution of our data is frequently associated with one of the 3 shapes:
+1. Right-skewed (smaller values to the right) Mean greater than Median
+2. Left-skewed (smaller values to the left) Mean less than median
+3 Symmetric (normally distributed, e.g. bell curve) Mean = Median
+
+The Mode of a distribution is essentially the tallest bar in a histogram. There may be multiple modes depending on the number of peaks in our histogram.
+
+## The Shape for Data in the World
+
+When working with data, building a quick plot lets you see the shape of your data.
+* Bell Shaped	Heights, Weight, Scores
+* Left Skewed 	GPA, Age of Death, Prices
+* Right Skewed 	Distribution of Wealth, Athletic Abilities
+
+# Shape and Ouliers
+
+## Outliers
+
+Outliers are datapoints in our dataset that fall very far from the rest of the dataset points. This influences measures like the mean and standard deviation much more than measures associated with the five-number summary.
+
+There are various techniques for identifying outliers. Outliers can also be identified visually when you data is plotted (e.g. histogram)
+
+## Working with Outliers
+
+### Common Techniques
+When outliers are present we should consider the following points:
+1. Noting that they exist and their  impact on summary statistics.
+2. Confirm if there is a type or incorrect value that can be removed.
+3. Understand why they exist, and the impact on questions we are trying to answer about our data.
+4. Reporting the 5 number summary values is often a better indication than measures like the mean and standard deviation when we have outliers.
+5. Be careful in reporting. Know how to ask the right questions.
+
+### Outliers Advice
+Guidelines when working with any column (random variable) in your dataset:
+1. Plot your data to identify any outliers (and shape)
+2. Handle outliers accordingly (via methods generally used in your industry/team/domain)
+3. If there are no outliers and your data follows a normal distribution - use the mean and standard deviation to describe your dataset, and report that the data is normally distributed.
+4. If your data is skewed or outliers are present, use the 5 number summary to summarise your data and report outliers.
+
+# Recap
+
+## Variable Types
+
+Data can identified as either categorical(labels) or quantitative(can be used mathematically). Quantitative variables can be either continuous (can be split into smaller units, e.g. time(hrs, minutes, seconds, etc)) or discrete (can not be split into smaller units e.g. number of dogs seen.). Categorical variables can be identified as either ordinal (can be ordered/ranked e.g. good, average, bad) or nominal (e.g. breed of dog).
+
+## Categorical Variables
+
+When analysing categorical variables, we commonly look a the count or percent of a group that falls into each level of category. For example, if we have two levels of dog category: "lab" and "not lab", we might say 32% of the dogs were lab (percent) or 32 out of 100 dogs we saw were labs(count).
+
+The 4 aspects associated with describing quantitative variable sare not used to describe catergorical variables.
+
+## Quantitative Variables
+
+There are four main aspects used to describe quantitative variables:
+1. Measuers of Center
+2. Measures of Spread
+3. Shapre of the Distribution
+4. Outliers
+
+Calculable measures of center include:
+1. Means (average)
+2. Medians (data point that splits dataset in 2)
+3. Modes (most common, frequent dataset value)
+
+Calculable measures of spread include:
+1. Range (Max - Min)
+2. Interquartile Range (Q3 - Q1)
+3. Standard Deviation (average difference of dataset from the mean)
+4. Variance (squared standard deviation)
+
+The distribution of data is frequently associated with one of three shapes:
+1. Right-skewed
+2. Left-skewed
+3. Symmetric (normally distributed)
+
+Depending on the shape associated with our dataset, certain measures of center or spread may be better for summarising our dataset.
+
+1. When we have data that follows a normal distribution, we can completely understand our dataset using the mean and standard deviation.
+2. If our dataset is skewed, the 5 number summary (and measures of center associated with it) might be better to summarise our dataset.
+
+## Outliers
+
+Outliers have a larger influence on measures like the mean than on measures like the median. Outliers should be dealt with on a situation by situation basis. Common techniques include:
+1. Note that they exist and their impact on summary statistics
+2. Typos or incorrect entries should be removed
+3. Understand why they exist, and the impact on questions we are tryin to answer about the dataset
+4. Reporting the 5 number summary values is often a better indication than measures like the mean and standard deviation when outliers are present.
+5. Be careful in reporting and know how to ask the right questions.
+
+## Histograms and Box Plots
+Histograms and Box Plots are used to visualise our quantitative data. Identifying outliers and the shape associated with the distribution of our dataset is easier when using a visual (histogram or box plot) as opposed to using summary statistics.
+
+# Descriptive vs. Inferential Statistics
+
+1. Descriptive statistics is about describing our collected data, using the measures previously discussed (measures of center, measures of spread, shape of distribution and outliers). Plots can be used to gain a better understanding of our data.
+
+2. Inferential statistics is about using our collected data to draw conclusions about a larger population. Performing inferential statistics requires a sample that accurately represents our population of interest.
+
+A common way to collect data is via a survey. Surveys may be biased depending on the types of questions and the way in which they are asked.
+
+Example, we poll 100 000 students to confirm if they drink coffee. Only 5000 students respond the poll.
+
+1. Population - the entire group of interest
+2. Parameter - numeric summary about the population (e.g. % of all students who drink coffee, unknown) inference
+3. Sample - subset of the population (5000 respondents in our example)
+4. Statistic - numberic summary about a sample (e.g. 73% of respondents drink coffee, statistic is 73%)
+
+Inferential statistics uses the statistic of the sample to infer/draw conclusions about the 100 000 population.
+
+# Lesson Review
+The following descriptive statistics topics on foundational metrics for understanding data were covered:
+
+* Evaluating measures of spread:
+	- Range
+	- Interquartile Range (IQR)
+	- Standard Deviation
+	- Variance
+* Analyse Outliers
+* Evaluate Descriptive and Inferential Statistics
