@@ -10,3 +10,43 @@ Spreadsheet columns use letters as their labels, A - Z, continuing on by adding 
 Rows are numbered numerically. Each cell is addressed based on its column and row, so the cell in Column D and row 6 is D6.
 
 When working with multiple sheets, the tab name also becomes part of the cell name, if addressed from a different sheet.
+
+### Navigation: Menu
+
+The File commands are those that operate between the spreadsheet application and the computer's operating system, such as creating a new spreadsheet, or saving and/or loading an existing one.
+
+The Home menu contains options such as cut, copy and paste, various formatting options like font changes and data types, cell operations like insert or deletions. It also contains functionality to find and/or replace.
+
+The insert menu has items to create hyperlinks or charts useful for data visualisation. Pivot tables will also be covered.
+
+The Data menu has items like sorting and filtering your data.
+
+### Navigation: Shortcuts
+
+Fill: Copy or continue a pattern of cells by dragging the mouse using a fill handle on the lower right of a cell. The fill handle typically shows up as a plus sign (+) when your mouse is in the right place.
+
+Context Menu is accessed by right-clicking in a cell.
+
+Many keyboard shortcuts also work within spreadsheets(Ctrl+Z for undo, Ctrl+Y for redo)
+
+** Paragraphs of text pasted in spreadsheets will each have their own cell.
+
+## Range Addressing
+
+A range is a group of cells selected or addressed together. It if defined by the cells in the upper left and lower right corners of the range(e.g. A1:D5)
+
+You can select a range of cells by clicking on one cell on a corner of the range and dragging to the other cells in the range.
+Ranges can be named to make them easier to identify and use.
+
+## Relative vs Absolute Addressing
+
+Relative Address: The cell locations are relative to the answer cell that references them. Copying or filling such locations will update the copied/fill location relative to the original(i.e. dragging from a cell using A1 would fill in A2 next). This is the default behaviour.
+
+Absolute Adress: Fixed cell or range address that doesn't change when copied. Adding dollar signs($) to an address makes it absolute based on where the dollar signs are placed. A dollar sign in front of a letter fixes a column, while a dollar sign in front of a number fixes the row. If both are prefixed with a dollar sign, it is fixed to the exact cell.
+
+## Insert and Delete
+Both the Home menu and the Context menu (accessible through a right-click) provide options to insert cells, rows or columns.
+
+### Save Data
+
+Always save your work! Google sheets and online cloud platforms save each change to any cell. Desktop applications require frequent and manual saves.
