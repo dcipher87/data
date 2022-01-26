@@ -1,0 +1,34 @@
+# Introduction
+
+Data manipulation in spreadsheets will cover the following:
+- Working with cell formulas:
+	1. Text data
+	2. Math operations
+	3. Statistical functions
+- Performing data operations at the table level:
+	1. Duplicating rows
+	2. Splitting columns
+	3. Sorting data
+
+# Cell Formulas
+
+Cell Formula
+An expression, beginning with an equal sign (=), that defines the operations which calculate the value for the cell. These may be a constant, contain mathematical operators or functions, or may reference a single cell, a range of cells, or no cells.
+
+Function
+A standard-defined built-in routine that calculates a value from inputs provided. They always begin with a key word (e.g. =sum, =average)
+
+Parameter
+Value of expressions required by a function to determine a result, defined by the function. These can be a constant, cell reference, range reference, other expression or another function.
+
+Different functions can be found in the Formulas library.
+
+## Substitute
+
+Text String: String of letters, numbers and punctuation that is not treated numerically. (e.g. Names, phrases, citites, not a date or number)
+
+While the SUBSTITUTION function sounds similar to find/replace, it is used for different purposes. Find/replace gets rid of the old data, while SUBSTITUTION will not change the original cell, instead showing the transformed data in a new cell.
+
+SUBSTITUTION uses the syntax:
+SUBSTITUTE ({text}, {old_text}, {new_text}), 
+where {text} is the cell to change, {old_text} is the string sequence to be replaced, and {new_text} is the new string in place of the old one.
