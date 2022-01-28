@@ -24,6 +24,7 @@ Value of expressions required by a function to determine a result, defined by th
 Different functions can be found in the Formulas library.
 
 ## Substitute
+Text functions modify or provide information about text strings found in data.
 
 Text String: String of letters, numbers and punctuation that is not treated numerically. (e.g. Names, phrases, citites, not a date or number)
 
@@ -32,3 +33,9 @@ While the SUBSTITUTION function sounds similar to find/replace, it is used for d
 SUBSTITUTION uses the syntax:
 SUBSTITUTE ({text}, {old_text}, {new_text}), 
 where {text} is the cell to change, {old_text} is the string sequence to be replaced, and {new_text} is the new string in place of the old one.
+
+## Extract Text
+FIND and LEFT can be used to extract text. 
+FIND can be given a substring and a cell to return the position in astring whrer the substring was found.
+LEFT can then be used to extract a certain number of characters from a cell, starting from the left side.
+RIGHT therefor extracts from the right side, while MID can extract from some starting point in the middle of a cell.
