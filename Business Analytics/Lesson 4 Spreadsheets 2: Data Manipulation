@@ -39,3 +39,48 @@ FIND and LEFT can be used to extract text.
 FIND can be given a substring and a cell to return the position in astring whrer the substring was found.
 LEFT can then be used to extract a certain number of characters from a cell, starting from the left side.
 RIGHT therefor extracts from the right side, while MID can extract from some starting point in the middle of a cell.
+
+--- NB: More exercises are needed for the extract text exercises, particulary Nested Formulas! ---
+
+## Reformat Text
+
+### Concatenate
+This functin will join together two or more strings. This will not automatically add spaces between them, so spaces must be added manually as formula parameters if they are required.
+
+### Trim
+This function removes excess whitespace fro a string.
+
+### Proper
+This function sets the first letter of each word to upper case, with the rest lowercase(like title: e.g. Khaya Ubisi)
+
+### Upper and Lower
+Upper sets all letters of the string to upper case (KHAYA UBISI), while lower sets all letters to lowercase (khaya ubisi).
+
+
+# Math Functions
+
+Math operations are one of the most common spreadsheet usages. These are used similarly to what we'd expect (with a leading equals sign):
++ for addition
+- for subtraction
+* for multiplication
+/ for division
+
+Spreadsheets also allow for functions to be used to perfom maths, like the SUM and AVERAGE functions which will provide the Sum or Average of two or more cells, numbers or range of cells.
+
+### Duplicate Rows 
+Use duplicate function.
+
+### Split Columns
+
+Splitting data is useful when you have data such as first and last names, or city and state, separated by a delimiter (e.g. a comma or a space). In Excel (and Google sheets) this can be done by adding a column to the right of theone you want to split, and then in the DATA tab, selecting "Text to Columns".
+
+Make sure you add the extra column first, as existing data may be overwritten in the next column.
+
+View >> Freeze functionality is useful to always display column headings (for example) when scrolling through large data sets.
+
+### Sort Data
+The sort function is available under the data tab. The data you want to sort needs to be selected. You can sort based on one or more columns (e.g. sort by first names, then if duplicate first names exist, sort by last name).
+
+### Filter Data
+
+a method to group data by selecting characteristics of one or more columns of a data set. Filter is accessed under the data tab.
