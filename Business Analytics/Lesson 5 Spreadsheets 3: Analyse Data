@@ -1,0 +1,75 @@
+# Lesson Intro
+
+This lesson will focus on analysing (asking and answering questions about the data) data in a spreadsheet. Topics to be discussed will include:
+	- Aggregation functions (like SUM or COUNT)
+	- Logical Functions (like IF, AND, OR and NOT)
+	- Conditional Aggregation functions (such as COUNTIF and SUMIF)
+	- Pivot Tables
+	- Named Ranges
+
+
+## Aggregation Functions
+
+An aggregate function operates across a group of data resulting in a single value. Examples inlcude:
+	- SUM
+	- AVERAGE
+	- MAX
+	- MIN
+	- MEDIAN
+	- STDEV
+
+## Logical Functions: IF
+
+The IF function can return different values basd on whether a condition is true or false. The first parameter is the condition, the second is what the cell value should be if the condition is true, and the optional third parameter is the cell value if the condition is false (skipping the third parametere will print FALSE i the cell). 
+
+Comparison operator: Compare the relative size or equality of two values with these operators. The result is a logical value of either true or false. The operators are as follows:
+	-  > greater than
+	-  < less than
+	-  = equal
+	- >= greater than or equal to
+	- <= less than or equal to
+	- <> not equal to
+
+## Logical Functions: AND, OR, NOT
+
+AND is a useful logical function, which can combine more than one condition. If we use an IF statement, not that it is nested within the IF function, such as:
+
+	IF(AND{conditon1}, {condition2}, ...)
+
+AND	requires that all conditions are true to be true. There is also the OR function, which just nees one of any of its conditions to be true for it to be true itself. 
+
+There is also the NOT function, which reverses a true to a false or a false to a true. 
+
+## Conditional Aggregation Functioins
+
+A function that operates accross a group of cells with logical conditions. COUNTIF and SUMIF are two examples of such functions.
+
+COUNTIF will count the number of cells in a range that meet a given condition.
+
+Likewise, SUMIF will instead sum the values from the cells in a range that meet a given condition.
+
+## Named Ranges
+
+In Excel, you can name a cell by selecting the relevant cell, and then the 'Formulas' tab, select 'Define Name'. You can then change the name or update which cells the name applies to.
+
+If you want to name a range, select the range of data (including labels), and instead select "Create from selection".
+
+This makes it so you can make the address in a formula more clear, where J2 could be replaced by 'apple_price'.
+
+NB: in Google sheets, named ranges are under the data menu, similar to pivot tables.
+
+## Lookup Functions
+
+A function that uses a keyword and index to 'look up' a value in a table. There are both horizontal and vertical lookup functions, although we will focus on a vertical one called VLOOKUP.
+
+Named ranges in lookup tables can reduce errors.
+
+# Recap
+
+In this lesson, we learned about analysing data in a spreadsheet, including:
+	- Aggregation functions (like SUM or COUNT)
+	- Logical functions (like IF, AND, OR, NOT)
+	- Conditional aggregation functions (such as COUNTIF and SUMIF)
+	- Pivot tables
+	- Named ranges and Lookups
+
