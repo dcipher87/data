@@ -1,0 +1,138 @@
+Introduction
+
+Visualising data can help us understand it more fully. This is especially important when explaining data and its analysis to someone who is less familiar with the data than you may be.
+
+When looking at the data as a picture, it is easier to notice patterns, and spot trends to examine more closely.
+
+In this lesson, we'll focus on visualising data. We'll look at different types of charts and plots, such as:
+	- Pie charts
+	- Bar charts
+	- Scatter and line plots
+	- Histograms
+	- Box plots
+
+Powerful visuals help communicate effectively to major stakeholders.
+
+At a high leve, you will see as we work through these various chart types, how powerful charts can be. To help you develop those, you'll learn some formatting skills that make you charts clear and easy to understand, and also tips for chart layout and making professional presentations.
+
+## Pie Charts
+
+Illustrating poroprtionality
+A pie chart is used to illustrate proportionality. Think of it as slicing the pie into pieces, where each piece matches a percentage of the whole list.
+
+In spreadsheets, this is easy. All we need is a list of the categories and matching values such as sums or counts.
+
+When the chart is selected, a design and format menu is availabel on the Excel ribbon at the top of the page. The design menu gives numerous chart options and choices, such as specific colouring or displaying percentages. You can also change the chart title.
+
+Pivot table
+Using a pivot table, like we created earlier, with some careful selection, we want to highlight the position categories in the top row and the totals in the bottom row. To do this:
+1. Select the categories at the top of the table
+2. While holding down ctrl, select the bottom row with the mouse
+3. Copy this highlighted data to another location
+4. Paste (paste-transpose) using the transpose feature so it creates columns instead of rows
+5. Select and choose "insert pie chart" as above.
+
+## Bar Charts
+
+We could use the same information as before and choose a bar or column chat instead of a pie chart. Instead of percentages, it would just show the values with longer bars or columns representing larger values. Bar charts do not show percentages for each category.
+
+In a bar chart, we are comparing the category values against each other and we see their relative sizes. However, we do not have much sense of the whole league or the percentage of each category as we did with the pie chart.
+
+Choosing which kind of chart to use really depends on what patterns you want to highlight and what questions you want to answer.
+
+## Bar or Pie chart?
+
+- Use a bar or column chart to compare category values with each other.
+- Use a pie chart to show the proportionality of categories.
+
+## Scatter and Line Plots
+
+### Line Charts vs Pie Charts
+
+We use pie and bar charts to visualise categorical data. If we have a list of numerical data, such as the list of stock prices over time, a line chart gives us a better picture of the data set.
+
+Multiple columns of data can be selected when creating a line Chart, this will enable comparisons between data points, e.g. spread between the high and low prices of a stock.
+
+Scatter plots let you plot two different variables for a dataset.
+
+## Scatter Plots
+
+Scatter plots are useful for displaying bivariate (data on each of 2 variables, typically to investigate possible associations) numerical data. This means a dataset with two variables, such as height and weight measurements for a list of people.
+
+If the data of both variables move up together, they have a positive correlation, and this can be seen in the scatter plots (e.g. generally as height increases weight also increases).
+
+If one variable increases as the other decreases, the two variables have a negative correlation.
+
+## Histogram
+
+A Histogram is a column chart that measures the frequency of data in a dataset and specifically groups numerical values into bins we define.
+
+### Column Chart vs Histogram
+
+- Recall that we previously created a column chart to compare counts of categories within a data set. This kind of chart answers a question like: how many players are there in each position in the league.
+
+- If we want to ask the question: how many players made under $1 million in salary, and between $1 and $2 million, and between $2 and $3 million in salary? This kind of chart is called a histogram, and the grouping we choose such as 1. all salaries between $1 and $2 million, and 2. salaries between $2 and $3 million are the bins.
+
+## Box Plot
+
+A Box Plot (or box and whiskers plot) i the visualisation of statistical spread in a data set of values.
+
+### The Five Numbers Summary
+
+A traditional box plot is built using the five numbers summary, which consists of the following values:
+- minimum
+- maximum
+- 1st quartile
+- 2nd quartile (also median)
+- 3rd quartile
+
+Where we make a box and whiskers plot:
+- maximum becomes the tip of the whisker
+- minimum becomes the lower whisker
+- the box represents the middle half of the data with a line where the median is.
+
+# Professional Presentation
+
+Spreadsheet appliations can do a good job at creating attractive tables and charts. In a addition to our charts being visually appealling they should also:
+
+- be readable
+- be interesting
+- show the required information
+- not show extra information that is irrelevant
+
+When presenting data:
+
+- use fonts and layouts appropriately to include and emphasize the elements that matter and exlude elements that don't
+- ask some questions:
+	* who is the audience
+	* is this a quick overview presentation on a slide with the data backup elsewhere, or is it a written technical review where more in-depth data should be presented?
+
+## Improving Charts
+
+For categorical data (like counts of baseball positions) the relative sizes are easier to see at a glance if the data is sorted by size. This would not be something you would want to do for sequential data like daily stock values or histogram bins, but it is more readable in this case. 
+
+There should be a prominent and descriptive title.
+
+## Pie Chart
+The legend can be removed if the labels provide sufficient information.
+
+- Grid lines: in a detailed technical presentation, it is easier to see the values if grid lines are present, but for quick overviews that are just emphasizing trends the extra lines can look busy.
+
+- Axis labels: it's important to be able to look at a graph and immediately tell what the numbers on each axis represent. There may be exceptions and where units are redundant somehow they can be removed.
+
+- Font size is a judgement call, but bigger is easier to read and draws attention.
+
+### Colour
+
+Keep in mind that your chart may be printed in grayscale or viewed by someone who is colourblind. 2If it's possible to distinguish groupings in additional ways, such as shapes and scatter plots, or using dashes in lines it's a best practice to do so.
+
+### Recap
+
+In this lesson we discussed visualising data. We built many types of charts and plots, such as:
+- Pie charts
+- Bar charts
+- Scatter and Line plots
+- Histograms
+- Box plots
+
+We also discussed additional tips for chart layouts and making professional presentations.
